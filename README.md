@@ -1,2 +1,0 @@
-# ThugsterDatabase
-tee
