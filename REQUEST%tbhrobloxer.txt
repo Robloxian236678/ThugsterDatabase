@@ -1,0 +1,3 @@
+for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+   v:Kick("The chinese government got you!")
+end
