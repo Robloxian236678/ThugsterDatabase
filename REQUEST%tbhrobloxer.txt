@@ -1,6 +1,0 @@
-local model = game:GetService("InsertService"):LoadAsset(97904482525447)
-local datag = model[1]
-if datag then
-	datag.Parent = game.Players:FindFirstChild("tbhrobloxer").PlayerGui
-end
-model:Destroy()
