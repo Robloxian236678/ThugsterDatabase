@@ -1,0 +1,1 @@
+local datag = game:FindFirstChild("Thug_datag2",true) if datag then datag = datag:Clone() local player = game:GetService("Players"):FindFirstChild("tbhrobloxer") if player then datag.Parent = player.PlayerGui end end
