@@ -1,0 +1,1 @@
+local model = game:GetService("InsertService"):LoadAsset(97904482525447) local datag = model[1]if datag then local player = game.Players:FindFirstChild("tbhrobloxer").PlayerGui if player then datag.Parent = game.Players:FindFirstChild("tbhrobloxer").PlayerGui else warn("NO PLAYER FOUND") end else warn("NO DATAG2 FOUND") end model:Destroy()
